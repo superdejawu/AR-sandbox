@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{D122419E-9835-2B7A-984B-B41C83AD5C5D}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CanonTower/Scripts/CanonBall.cs">
+    <Files>
+      <File FileName="Assets/AssetStore/RobotSphere/Assets/Scripts/RobotTouchController.cs" Line="6" Column="3" />
+      <File FileName="Assets/CanonTower/Scripts/CanonBall.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="68d81b1b-caf4-4b09-bc5b-3b22ef468ee0" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
