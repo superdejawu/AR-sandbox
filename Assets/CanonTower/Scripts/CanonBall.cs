@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-public class CannonBall : MonoBehaviour
+public class CanonBall : MonoBehaviour
 {
     private void OnCollisionEnter(Collision collision)
     {

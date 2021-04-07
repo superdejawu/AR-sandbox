@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-public class Cannon : MonoBehaviour
+public class Canon : MonoBehaviour
 {
     [SerializeField]
     private float shootingForce = 500f;

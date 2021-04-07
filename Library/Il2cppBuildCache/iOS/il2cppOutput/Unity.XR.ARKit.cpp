@@ -16682,7 +16682,7 @@ IL_0001:
 			Assert_AreNotEqual_TisIntPtr_t_m67ED187B583DCA4731A1DEE9E1A98EC4A95E33BE((intptr_t)L_0, (intptr_t)(0), /*hidden argument*/Assert_AreNotEqual_TisIntPtr_t_m67ED187B583DCA4731A1DEE9E1A98EC4A95E33BE_RuntimeMethod_var);
 			// int n = count;
 			int32_t L_1;
-			L_1 = VirtFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 UnityEngine.XR.ARSubsystems.RuntimeReferenceImageLibrary::get_count() */, __this);
+			L_1 = VirtFuncInvoker0< int32_t >::Invoke(6 /* System.Int32 UnityEngine.XR.ARSubsystems.RuntimeReferenceImageLibrary::get_count() */, __this);
 			V_0 = L_1;
 			// for (int i = 0; i < n; ++i)
 			V_1 = 0;

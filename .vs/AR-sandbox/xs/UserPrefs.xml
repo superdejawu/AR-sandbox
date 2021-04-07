@@ -1,8 +1,11 @@
-﻿<Properties StartupConfiguration="{D122419E-9835-2B7A-984B-B41C83AD5C5D}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/CanonTower/Scripts/CanonBall.cs">
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TapToPlace.cs">
     <Files>
-      <File FileName="Assets/AssetStore/RobotSphere/Assets/Scripts/RobotTouchController.cs" Line="6" Column="3" />
-      <File FileName="Assets/CanonTower/Scripts/CanonBall.cs" Line="1" Column="1" />
+      <File FileName="Assets/AssetStore/RobotSphere/Assets/Scripts/RobotTouchController.cs" Line="14" Column="32" />
+      <File FileName="Assets/CanonTower/Scripts/CanonBall.cs" Line="4" Column="17" />
+      <File FileName="Library/PackageCache/com.unity.xr.arkit@4.0.12/Editor/ARKitReferenceImageLibraryBuildProcessor.cs" Line="65" Column="1" />
+      <File FileName="Assets/Scripts/TapToPlace.cs" Line="29" Column="2" />
+      <File FileName="Assets/CanonTower/Scripts/Canon.cs" Line="16" Column="33" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

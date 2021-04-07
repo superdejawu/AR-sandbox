@@ -1,11 +1,19 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Canon
+    - CanonBall
+    - FixedJoystick
+    - RobotTouchController
     - TapToPlace
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.XR.ARCore.Editor.dll:
-    - UnityEditor.XR.ARCore.ARCoreSettings
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
     Unity.XR.ARCore.dll:
     - UnityEngine.XR.ARCore.ARCoreLoader
     Unity.XR.ARFoundation.dll:
@@ -19,10 +27,13 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.ARFoundation.ARRaycastManager
     - UnityEngine.XR.ARFoundation.ARSession
     - UnityEngine.XR.ARFoundation.ARSessionOrigin
+    - UnityEngine.XR.ARFoundation.ARTrackedImageManager
     Unity.XR.ARKit.Editor.dll:
     - UnityEditor.XR.ARKit.ARKitSettings
     Unity.XR.ARKit.dll:
     - UnityEngine.XR.ARKit.ARKitLoader
+    Unity.XR.ARSubsystems.dll:
+    - UnityEngine.XR.ARSubsystems.XRReferenceImageLibrary
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
     Unity.XR.Management.dll:
@@ -32,6 +43,13 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
   sceneClasses:
     Assets/Scenes/ARRobot.unity:
     - Class: 1
@@ -51,6 +69,8 @@ ScriptsOnlyBuild:
     - Class: 43
       Script: {instanceID: 0}
     - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
       Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
@@ -73,36 +93,80 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1480}
+      Script: {instanceID: 1472}
     - Class: 114
-      Script: {instanceID: 1588}
+      Script: {instanceID: 1510}
     - Class: 114
-      Script: {instanceID: 2318}
+      Script: {instanceID: 1618}
     - Class: 114
-      Script: {instanceID: 2982}
+      Script: {instanceID: 1758}
     - Class: 114
-      Script: {instanceID: 2986}
+      Script: {instanceID: 1944}
     - Class: 114
-      Script: {instanceID: 3344}
+      Script: {instanceID: 2020}
     - Class: 114
-      Script: {instanceID: 3394}
+      Script: {instanceID: 2094}
     - Class: 114
-      Script: {instanceID: 3624}
+      Script: {instanceID: 2324}
     - Class: 114
-      Script: {instanceID: 4022}
+      Script: {instanceID: 2350}
     - Class: 114
-      Script: {instanceID: 4034}
+      Script: {instanceID: 2424}
     - Class: 114
-      Script: {instanceID: 4184}
+      Script: {instanceID: 2474}
     - Class: 114
-      Script: {instanceID: 17618}
+      Script: {instanceID: 2580}
+    - Class: 114
+      Script: {instanceID: 2762}
+    - Class: 114
+      Script: {instanceID: 2858}
+    - Class: 114
+      Script: {instanceID: 2880}
+    - Class: 114
+      Script: {instanceID: 3016}
+    - Class: 114
+      Script: {instanceID: 3020}
+    - Class: 114
+      Script: {instanceID: 3378}
+    - Class: 114
+      Script: {instanceID: 3428}
+    - Class: 114
+      Script: {instanceID: 3638}
+    - Class: 114
+      Script: {instanceID: 3660}
+    - Class: 114
+      Script: {instanceID: 3798}
+    - Class: 114
+      Script: {instanceID: 3960}
+    - Class: 114
+      Script: {instanceID: 4058}
+    - Class: 114
+      Script: {instanceID: 4064}
+    - Class: 114
+      Script: {instanceID: 4070}
+    - Class: 114
+      Script: {instanceID: 4220}
+    - Class: 114
+      Script: {instanceID: 4274}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
       Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -261,6 +325,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner
     className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CanonBall
   - hash:
       serializedVersion: 2
       Hash: dc1bf7169b005112f7a4da5a6b15f0c4
@@ -459,6 +529,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 54aee7ffbc717da535aaa67eab38c7f9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RobotTouchController
   - hash:
       serializedVersion: 2
       Hash: 290afc8da8e459e0b8dc7444bfaf5e35
@@ -669,6 +745,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 2c603312db4e170712ccf62617170d47
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Canon
   - hash:
       serializedVersion: 2
       Hash: e1c35cdce946e9da77fe80a39c261608

@@ -280,6 +280,24 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "SphereCollider",
+            "fullManagedTypeName": "UnityEngine.SphereCollider",
+            "moduleName": "Physics",
+            "usedInScenes": [
+                "Assets/Scenes/ARRobot.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Canvas",
+            "fullManagedTypeName": "UnityEngine.Canvas",
+            "moduleName": "UI",
+            "usedInScenes": [
+                "Assets/Scenes/ARRobot.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "AnimationClip",
             "fullManagedTypeName": "UnityEngine.AnimationClip",
             "moduleName": "Animation",
@@ -325,8 +343,26 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Font",
+            "fullManagedTypeName": "UnityEngine.Font",
+            "moduleName": "TextRendering",
+            "usedInScenes": [
+                "Assets/Scenes/ARRobot.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Renderer",
             "fullManagedTypeName": "UnityEngine.Renderer",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/ARRobot.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Sprite",
+            "fullManagedTypeName": "UnityEngine.Sprite",
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/ARRobot.unity"
@@ -433,9 +469,27 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "RectTransform",
+            "fullManagedTypeName": "UnityEngine.RectTransform",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/ARRobot.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Motion",
             "fullManagedTypeName": "UnityEngine.Motion",
             "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Scenes/ARRobot.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "CanvasRenderer",
+            "fullManagedTypeName": "UnityEngine.CanvasRenderer",
+            "moduleName": "UI",
             "usedInScenes": [
                 "Assets/Scenes/ARRobot.unity"
             ]
@@ -470,7 +524,70 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "Canon",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "CanonBall",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "FixedJoystick",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "RobotTouchController",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "TapToPlace",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TMP_FontAsset",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TMP_Settings",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TMP_SpriteAsset",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TMP_StyleSheet",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TextMeshProUGUI",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -545,9 +662,23 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Unity.XR.ARFoundation.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.XR.ARFoundation.ARTrackedImageManager",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "Unity.XR.ARKit.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.XR.ARKit.ARKitLoader",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.XR.ARSubsystems.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.XR.ARSubsystems.XRReferenceImageLibrary",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -562,6 +693,48 @@
             "managedAssemblyName": "Unity.XR.Management.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.XR.Management.XRManagerSettings",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.EventSystems.EventSystem",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.EventSystems.StandaloneInputModule",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.Button",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.CanvasScaler",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.GraphicRaycaster",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.Image",
             "moduleName": "",
             "usedInScenes": []
         }

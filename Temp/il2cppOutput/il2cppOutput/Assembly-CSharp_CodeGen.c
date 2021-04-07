@@ -126,15 +126,35 @@ extern void RobotFreeAnim_Update_m80418630095FF021EB87A178ADD93027ADA2A0AD (void
 extern void RobotFreeAnim_CheckKey_m7AB7335382B4EE2FC8E13554BF615368D136EB82 (void);
 // 0x00000039 System.Void RobotFreeAnim::.ctor()
 extern void RobotFreeAnim__ctor_mD8CB0ACDE35493D0DE89DC2E134717AF428E822E (void);
-// 0x0000003A System.Void TapToPlace::Start()
+// 0x0000003A System.Void RobotTouchController::OnEnable()
+extern void RobotTouchController_OnEnable_mF6722647122864CAB4EA5ADD01BEC7295BCE7D84 (void);
+// 0x0000003B System.Void RobotTouchController::Update()
+extern void RobotTouchController_Update_m4FEF4F2134715C55185888CA74C2FEE9CF563046 (void);
+// 0x0000003C System.Void RobotTouchController::.ctor()
+extern void RobotTouchController__ctor_mA5A562EE3C552E59F393E1500A9D5D897E440AB3 (void);
+// 0x0000003D System.Void Canon::Start()
+extern void Canon_Start_m6CBE45F5509398FAB8E949AA4791D1A99E82778E (void);
+// 0x0000003E System.Void Canon::Update()
+extern void Canon_Update_m5466DFB6CD948E6F9FE8AD37E65CA77FC77D39A2 (void);
+// 0x0000003F System.Void Canon::ShootAtPlayer()
+extern void Canon_ShootAtPlayer_m2EAD8FAC354F437F59FAB167C1553CEEE42810B2 (void);
+// 0x00000040 UnityEngine.GameObject Canon::RobotPlayer()
+extern void Canon_RobotPlayer_mA6013FA447EB165200AFC0CBCE0FB53594C6904A (void);
+// 0x00000041 System.Void Canon::.ctor()
+extern void Canon__ctor_m068A8FABCDA3C823AD5186A3FD2E55A3632FB7DE (void);
+// 0x00000042 System.Void CanonBall::OnCollisionEnter(UnityEngine.Collision)
+extern void CanonBall_OnCollisionEnter_m3F0744D931C06E9B7A416358926B87D427EC52BA (void);
+// 0x00000043 System.Void CanonBall::.ctor()
+extern void CanonBall__ctor_m9978EA50F93478591447D4E4C08437482A10E020 (void);
+// 0x00000044 System.Void TapToPlace::Start()
 extern void TapToPlace_Start_m0954AFB27FF9E53A9E155699A1EBA275F83101B5 (void);
-// 0x0000003B System.Void TapToPlace::Update()
+// 0x00000045 System.Void TapToPlace::Update()
 extern void TapToPlace_Update_m13B66A51805937100A9C517D845B4F902AF25DD9 (void);
-// 0x0000003C System.Void TapToPlace::.ctor()
+// 0x00000046 System.Void TapToPlace::.ctor()
 extern void TapToPlace__ctor_m4689CD13C0FB0FFF694BD04E189B87705536F68D (void);
-// 0x0000003D System.Void TapToPlace::.cctor()
+// 0x00000047 System.Void TapToPlace::.cctor()
 extern void TapToPlace__cctor_m879E8EE05C8C11EC3E3425838B347A116F56916A (void);
-static Il2CppMethodPointer s_methodPointers[61] = 
+static Il2CppMethodPointer s_methodPointers[71] = 
 {
 	JoystickPlayerExample_FixedUpdate_m3D7D2B1BE8C20574423088EF0C338700444B04B2,
 	JoystickPlayerExample__ctor_mEE8014E341485D43F0629DE22DB9F407E47FC49B,
@@ -193,81 +213,101 @@ static Il2CppMethodPointer s_methodPointers[61] =
 	RobotFreeAnim_Update_m80418630095FF021EB87A178ADD93027ADA2A0AD,
 	RobotFreeAnim_CheckKey_m7AB7335382B4EE2FC8E13554BF615368D136EB82,
 	RobotFreeAnim__ctor_mD8CB0ACDE35493D0DE89DC2E134717AF428E822E,
+	RobotTouchController_OnEnable_mF6722647122864CAB4EA5ADD01BEC7295BCE7D84,
+	RobotTouchController_Update_m4FEF4F2134715C55185888CA74C2FEE9CF563046,
+	RobotTouchController__ctor_mA5A562EE3C552E59F393E1500A9D5D897E440AB3,
+	Canon_Start_m6CBE45F5509398FAB8E949AA4791D1A99E82778E,
+	Canon_Update_m5466DFB6CD948E6F9FE8AD37E65CA77FC77D39A2,
+	Canon_ShootAtPlayer_m2EAD8FAC354F437F59FAB167C1553CEEE42810B2,
+	Canon_RobotPlayer_mA6013FA447EB165200AFC0CBCE0FB53594C6904A,
+	Canon__ctor_m068A8FABCDA3C823AD5186A3FD2E55A3632FB7DE,
+	CanonBall_OnCollisionEnter_m3F0744D931C06E9B7A416358926B87D427EC52BA,
+	CanonBall__ctor_m9978EA50F93478591447D4E4C08437482A10E020,
 	TapToPlace_Start_m0954AFB27FF9E53A9E155699A1EBA275F83101B5,
 	TapToPlace_Update_m13B66A51805937100A9C517D845B4F902AF25DD9,
 	TapToPlace__ctor_m4689CD13C0FB0FFF694BD04E189B87705536F68D,
 	TapToPlace__cctor_m879E8EE05C8C11EC3E3425838B347A116F56916A,
 };
-static const int32_t s_InvokerIndices[61] = 
+static const int32_t s_InvokerIndices[71] = 
 {
-	2056,
-	2056,
-	1687,
-	1687,
-	1720,
-	1720,
-	2056,
-	2056,
-	2044,
-	2044,
-	2052,
-	2044,
-	1722,
-	2044,
-	1722,
-	2003,
-	1687,
-	2041,
-	1720,
-	2041,
-	1720,
-	2056,
-	1702,
-	1702,
-	400,
-	2056,
-	794,
-	1702,
-	1552,
-	2056,
-	2044,
-	1722,
-	2056,
-	1702,
-	1702,
-	400,
-	2056,
-	2056,
-	2056,
-	1702,
-	1702,
-	2056,
-	2044,
-	1722,
-	1687,
-	2056,
-	1702,
-	1702,
-	400,
-	2056,
-	2056,
-	2056,
-	2056,
-	2056,
-	2056,
-	2056,
-	2056,
-	2056,
-	2056,
-	2056,
-	3408,
+	2428,
+	2428,
+	1976,
+	1976,
+	2012,
+	2012,
+	2428,
+	2428,
+	2406,
+	2406,
+	2423,
+	2406,
+	2014,
+	2406,
+	2014,
+	2363,
+	1976,
+	2403,
+	2012,
+	2403,
+	2012,
+	2428,
+	1992,
+	1992,
+	450,
+	2428,
+	899,
+	1992,
+	1811,
+	2428,
+	2406,
+	2014,
+	2428,
+	1992,
+	1992,
+	450,
+	2428,
+	2428,
+	2428,
+	1992,
+	1992,
+	2428,
+	2406,
+	2014,
+	1976,
+	2428,
+	1992,
+	1992,
+	450,
+	2428,
+	2428,
+	2428,
+	2428,
+	2428,
+	2428,
+	2428,
+	2428,
+	2428,
+	2428,
+	2428,
+	2428,
+	2428,
+	2428,
+	2380,
+	2428,
+	1992,
+	2428,
+	2428,
+	2428,
+	2428,
+	3906,
 };
 extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	61,
+	71,
 	s_methodPointers,
 	0,
 	NULL,

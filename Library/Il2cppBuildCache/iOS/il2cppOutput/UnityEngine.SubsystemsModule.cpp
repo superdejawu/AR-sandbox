@@ -2285,7 +2285,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Subsystem_Destroy_mDAEF3C8FEE45DEAB90452
 		}
 	}
 	{
-		VirtActionInvoker0::Invoke(9 /* System.Void UnityEngine.Subsystem::OnDestroy() */, __this);
+		VirtActionInvoker0::Invoke(10 /* System.Void UnityEngine.Subsystem::OnDestroy() */, __this);
 	}
 
 IL_0012:
